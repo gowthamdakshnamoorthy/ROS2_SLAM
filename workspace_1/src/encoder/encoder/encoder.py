@@ -20,10 +20,10 @@ pulse_b = GPIO.input(b)
 
 rclpy.init(args=None)
 node = rclpy.create_node('encoder_data_1_A')
-node.declare_parameter("Val2", 20)
+
 node.get_logger().info("Right_Motor_Encoder_A_Publisher: Started")
 pub = node.create_publisher(Int16, "RightMotorEncoderA", 10)
-node.declare_parameter("Val")
+
 msg1 = Int16()
 msg1.data = pulse_a
 msg2 = Int16()
