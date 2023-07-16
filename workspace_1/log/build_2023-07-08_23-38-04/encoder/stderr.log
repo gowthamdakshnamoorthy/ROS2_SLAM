@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder/encoder.py", line 22
+    	node.get_logger().info(str(pulse_b)
+    	                      ^
+SyntaxError: '(' was never closed
+

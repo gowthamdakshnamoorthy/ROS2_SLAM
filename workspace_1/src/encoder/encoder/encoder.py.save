@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+import rclpy
+import RPi.GPIO as GPIO
+
+a = 16
+b = 18
+
+GPIO.setMode(GPIO.BOARD)
+GPIO.setWarnings(False)
+
+GPIO.setup(a, GPIO.IN)
+GPIO.setup(b, GPIO.IN)
+
+rclpy.init()
+node = rclpy.create_node('encoder_data_1_A')
+while True:
+	node.get_logger().info(str
+rclpy.spin(node)
+rclpy.shutdown()

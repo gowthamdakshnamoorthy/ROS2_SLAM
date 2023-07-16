@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001519] (encoder) JobQueued: {'identifier': 'encoder', 'dependencies': OrderedDict()}
+[0.004144] (encoder) JobStarted: {'identifier': 'encoder'}
+[0.099095] (-) TimerEvent: {}
+[0.199725] (-) TimerEvent: {}
+[0.300353] (-) TimerEvent: {}
+[0.400938] (-) TimerEvent: {}
+[0.501526] (-) TimerEvent: {}
+[0.602108] (-) TimerEvent: {}
+[0.702710] (-) TimerEvent: {}
+[0.803297] (-) TimerEvent: {}
+[0.903859] (-) TimerEvent: {}
+[1.004419] (-) TimerEvent: {}
+[1.105172] (-) TimerEvent: {}
+[1.206831] (-) TimerEvent: {}
+[1.308949] (-) TimerEvent: {}
+[1.409564] (-) TimerEvent: {}
+[1.510181] (-) TimerEvent: {}
+[1.610824] (-) TimerEvent: {}
+[1.711431] (-) TimerEvent: {}
+[1.812024] (-) TimerEvent: {}
+[1.912586] (-) TimerEvent: {}
+[2.013158] (-) TimerEvent: {}
+[2.113802] (-) TimerEvent: {}
+[2.214429] (-) TimerEvent: {}
+[2.315069] (-) TimerEvent: {}
+[2.415636] (-) TimerEvent: {}
+[2.516214] (-) TimerEvent: {}
+[2.616970] (-) TimerEvent: {}
+[2.715121] (encoder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/encoder', 'build', '--build-base', '/home/ubuntu/ros2_files/workspace_1/build/encoder/build', 'install', '--record', '/home/ubuntu/ros2_files/workspace_1/build/encoder/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_files/workspace_1/src/encoder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.61.201 54143 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_files', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_files/workspace_1/build/encoder', 'SSH_CONNECTION': '192.168.61.201 54143 192.168.61.125 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_files/workspace_1/build/encoder/prefix_override:/home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.724970] (-) TimerEvent: {}
+[2.828355] (-) TimerEvent: {}
+[2.928991] (-) TimerEvent: {}
+[3.029701] (-) TimerEvent: {}
+[3.130367] (-) TimerEvent: {}
+[3.230944] (-) TimerEvent: {}
+[3.331554] (-) TimerEvent: {}
+[3.432120] (-) TimerEvent: {}
+[3.532675] (-) TimerEvent: {}
+[3.633291] (-) TimerEvent: {}
+[3.733943] (-) TimerEvent: {}
+[3.748745] (encoder) StdoutLine: {'line': b'running egg_info\n'}
+[3.751281] (encoder) StdoutLine: {'line': b'writing ../../build/encoder/encoder.egg-info/PKG-INFO\n'}
+[3.753166] (encoder) StdoutLine: {'line': b'writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt\n'}
+[3.753867] (encoder) StdoutLine: {'line': b'writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt\n'}
+[3.754606] (encoder) StdoutLine: {'line': b'writing requirements to ../../build/encoder/encoder.egg-info/requires.txt\n'}
+[3.755206] (encoder) StdoutLine: {'line': b'writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt\n'}
+[3.762745] (encoder) StdoutLine: {'line': b"reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'\n"}
+[3.766298] (encoder) StdoutLine: {'line': b"writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'\n"}
+[3.766910] (encoder) StdoutLine: {'line': b'running build\n'}
+[3.767447] (encoder) StdoutLine: {'line': b'running build_py\n'}
+[3.767948] (encoder) StdoutLine: {'line': b'copying encoder/encoder.py -> /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib/encoder\n'}
+[3.769063] (encoder) StdoutLine: {'line': b'running install\n'}
+[3.769634] (encoder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.770103] (encoder) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.770767] (encoder) StdoutLine: {'line': b'running install_lib\n'}
+[3.773805] (encoder) StdoutLine: {'line': b'copying /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib/encoder/encoder.py -> /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder\n'}
+[3.776207] (encoder) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder/encoder.py to encoder.cpython-310.pyc\n'}
+[3.777616] (encoder) StdoutLine: {'line': b'running install_data\n'}
+[3.779940] (encoder) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.785923] (encoder) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.787494] (encoder) StdoutLine: {'line': b'Copying ../../build/encoder/encoder.egg-info to /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info\n'}
+[3.792364] (encoder) StdoutLine: {'line': b'running install_scripts\n'}
+[3.834115] (-) TimerEvent: {}
+[3.869230] (encoder) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_files/workspace_1/build/encoder/install.log'\n"}
+[3.934437] (-) TimerEvent: {}
+[3.983491] (encoder) CommandEnded: {'returncode': 0}
+[4.034586] (-) TimerEvent: {}
+[4.045624] (encoder) JobEnded: {'identifier': 'encoder', 'rc': 0}
+[4.048346] (-) EventReactorShutdown: {}

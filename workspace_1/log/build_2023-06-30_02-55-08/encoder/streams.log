@@ -1,0 +1,35 @@
+[2.688s] Invoking command in '/home/ubuntu/ros2_files/workspace_1/src/encoder': PYTHONPATH=/home/ubuntu/ros2_files/workspace_1/build/encoder/prefix_override:/home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /home/ubuntu/ros2_files/workspace_1/build/encoder/build install --record /home/ubuntu/ros2_files/workspace_1/build/encoder/install.log --single-version-externally-managed
+[3.710s] running egg_info
+[3.713s] creating ../../build/encoder/encoder.egg-info
+[3.714s] writing ../../build/encoder/encoder.egg-info/PKG-INFO
+[3.715s] writing dependency_links to ../../build/encoder/encoder.egg-info/dependency_links.txt
+[3.715s] writing entry points to ../../build/encoder/encoder.egg-info/entry_points.txt
+[3.716s] writing requirements to ../../build/encoder/encoder.egg-info/requires.txt
+[3.716s] writing top-level names to ../../build/encoder/encoder.egg-info/top_level.txt
+[3.717s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[3.724s] reading manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[3.727s] writing manifest file '../../build/encoder/encoder.egg-info/SOURCES.txt'
+[3.727s] running build
+[3.728s] running build_py
+[3.728s] creating /home/ubuntu/ros2_files/workspace_1/build/encoder/build
+[3.729s] creating /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib
+[3.729s] creating /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib/encoder
+[3.729s] copying encoder/__init__.py -> /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib/encoder
+[3.730s] running install
+[3.730s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.731s]   warnings.warn(
+[3.731s] running install_lib
+[3.734s] creating /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder
+[3.735s] copying /home/ubuntu/ros2_files/workspace_1/build/encoder/build/lib/encoder/__init__.py -> /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder
+[3.737s] byte-compiling /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder/__init__.py to __init__.cpython-310.pyc
+[3.738s] running install_data
+[3.740s] creating /home/ubuntu/ros2_files/workspace_1/install/encoder/share/ament_index
+[3.741s] creating /home/ubuntu/ros2_files/workspace_1/install/encoder/share/ament_index/resource_index
+[3.741s] creating /home/ubuntu/ros2_files/workspace_1/install/encoder/share/ament_index/resource_index/packages
+[3.742s] copying resource/encoder -> /home/ubuntu/ros2_files/workspace_1/install/encoder/share/ament_index/resource_index/packages
+[3.742s] copying package.xml -> /home/ubuntu/ros2_files/workspace_1/install/encoder/share/encoder
+[3.742s] running install_egg_info
+[3.748s] Copying ../../build/encoder/encoder.egg-info to /home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages/encoder-0.0.0-py3.10.egg-info
+[3.753s] running install_scripts
+[3.830s] writing list of installed files to '/home/ubuntu/ros2_files/workspace_1/build/encoder/install.log'
+[3.945s] Invoked command in '/home/ubuntu/ros2_files/workspace_1/src/encoder' returned '0': PYTHONPATH=/home/ubuntu/ros2_files/workspace_1/build/encoder/prefix_override:/home/ubuntu/ros2_files/workspace_1/install/encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/encoder build --build-base /home/ubuntu/ros2_files/workspace_1/build/encoder/build install --record /home/ubuntu/ros2_files/workspace_1/build/encoder/install.log --single-version-externally-managed
